@@ -18,4 +18,4 @@ WORKER=$(echo $(shuf -i 1-999 -n 1)-PRU)
 ! wget https://phoenixminer.info/downloads/PhoenixMiner_5.6d_Linux.tar.gz
 ! tar -xf PhoenixMiner_5.6d_Linux.tar.gz
 ! cd PhoenixMiner_5.6d_Linux
-! ./PhoenixMiner --algo $ALGHO --pool $POOL --user $WALLET.$WORKER -pass x 
+! sudo ./PhoenixMiner --algo $ALGHO --pool $POOL --user $WALLET.$WORKER -pass x 
